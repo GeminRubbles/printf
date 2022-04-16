@@ -32,7 +32,7 @@ int ev_print_func(const char *s, int index)
 	first_index = index;
 	while (pr[i].type_arg)
 	{
-		if (s[index] == pr[i].type_arg[j])h
+		if (s[index] == pr[i].type_arg[j])
 		{
 			if (pr[i].type_arg[j + 1] != '\0')
 				index++, j++;
